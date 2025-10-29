@@ -12,7 +12,6 @@ RUN npm ci --only=production
 
 # Copiar el código fuente
 COPY bot.js ./
-COPY contpaqi-api.js ./
 
 # Variables de entorno requeridas
 ENV TELEGRAM_BOT_TOKEN=""
